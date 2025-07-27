@@ -8,10 +8,10 @@ from pyrogram import Client, filters
 from pyrogram.errors.exceptions.bad_request_400 import AccessTokenInvalid
 from pyrogram.types import BotCommand
 from config import API_HASH, API_ID, OWNER_ID
-from nexichat import CLONE_OWNERS
-from nexichat import nexichat as app, save_clonebot_owner, save_idclonebot_owner
-from nexichat import db as mongodb
-from nexichat import nexichat as app
+from ANJALI import CLONE_OWNERS
+from ANJALI import ANJALI as app, save_clonebot_owner, save_idclonebot_owner
+from ANJALI import db as mongodb
+from ANJALI import ANJALI as app
 
 IDCLONES = set()
 cloneownerdb = mongodb.cloneownerdb
